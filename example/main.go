@@ -1,12 +1,3 @@
-# 多边图形碰撞检测
-
-1.下载并使用
-~~~shell
-$ go install github.com/swaggo/swag/cmd/swag@latest
-~~~
-
-2.使用
-~~~
 package main
 
 import (
@@ -46,4 +37,3 @@ func main(){
 	polygon2.Points = append(polygon2.Points, polygoncollision.Point{80, 300}, polygoncollision.Point{70, 200}, polygoncollision.Point{150, 130}, polygoncollision.Point{180, 250})
 	fmt.Println("复杂图形：",polygoncollision.Detect(polygon1,polygon2))
 }
-~~~
