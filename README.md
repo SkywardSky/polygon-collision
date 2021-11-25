@@ -2,7 +2,7 @@
 
 1.下载并使用
 ~~~shell
-$ go install github.com/swaggo/swag/cmd/swag@latest
+$ go install github.com/SkywardSky/polygon-collision@latest
 ~~~
 
 2.使用
